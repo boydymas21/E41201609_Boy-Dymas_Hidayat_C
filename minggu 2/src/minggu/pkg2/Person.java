@@ -10,18 +10,22 @@ package minggu.pkg2;
  * @author USER
  */
 class Person {
+    String name;
+    int age;
     
-
-    Person(String arial, int i) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public Person(String name, int age){
+        this.name = name;
+        this.age = age;
     }
-
-    boolean getAge() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    
+    public String getName() {
+        return name;
     }
-
-    String getName() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public String getAge() {
+        return name;
+    }
+    public void setAge(int age) {
+        this.age = age;
     }
     
 }
