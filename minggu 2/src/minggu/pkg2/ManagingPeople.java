@@ -9,7 +9,7 @@ package minggu.pkg2;
  *
  * @author USER
  */
-public class ManagingPople 
+public class ManagingPeople 
 {
     
     public static void main(String[] args)
