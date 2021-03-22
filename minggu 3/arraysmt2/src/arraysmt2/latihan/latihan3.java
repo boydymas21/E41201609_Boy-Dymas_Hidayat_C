@@ -11,13 +11,20 @@ package arraysmt2.latihan;
  */
 public class latihan3 {
     public static void main(String[] args) {
-        int[][] angka = {{5,4,2,1,5},{9,6,5,7,8},{5,2,1,5,10}};
-        for (int baris = 0; baris < 3; baris++){
-            for (int kolom = 0; kolom < 5; kolom++){
-                System.out.print(angka[baris]+"   ");
+        {
+        int[][]angka = {
+            {5,4,2,1,5},
+            {9,6,5,7,8},
+            {5,2,1,5,10},             
+        };
+
+        for (int i=0;i<3;i++){
+            for (int j=0;j<4;j++){
+                System.out.print(angka[i][j]+" ");
             }
+            System.out.println();
         }
     }
+  }
 }
-
 
