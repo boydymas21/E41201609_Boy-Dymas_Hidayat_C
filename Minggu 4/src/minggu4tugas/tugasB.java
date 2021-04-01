@@ -11,15 +11,16 @@ package minggu4tugas;
  */
 public class tugasB {
     public static void main(String[] args) {
-        int i = 1;
+        int i = 0;
         int j = 100;
+        int kelipatan;
         System.out.println("        Do_While        ");
-        System.out.println("bilangan kelipatan 2 (1-100)");
+        System.out.println("bilangan kelipatan 2 (0-100)");
         System.out.println("============================");
         
         do{
-            System.out.print(i+"   ");
-            i*=2;
+            kelipatan = i+=2;
+            System.out.print(kelipatan+" ");
         }while (i<=j);
     }
 }
