@@ -66,6 +66,11 @@ public class TreeApp {
                         System.out.println("Deleted " + value);
                     }
                     break;
+                case 't':
+                    System.out.print("Enter type 1, 2, or 3: ");
+                    value = getInt();
+                    theTree.traverse(value);
+                    break;
                 default:
                     System.out.println("Invalid Entry ");
             }
